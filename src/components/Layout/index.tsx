@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './index.css';
 import Header from '../Header';
+import Menu from '../Menu';
 
 interface LayoutProps {
 	title: string;
@@ -9,7 +10,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children, title }) => {
 	return (
-		<div id="container">
+		<div id="layout-wrapper">
 			<Header />
 			{children}
 		</div>
