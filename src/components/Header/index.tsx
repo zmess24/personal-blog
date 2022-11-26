@@ -4,14 +4,14 @@ import './index.css';
 const Header: React.FC = () => {
 	return (
 		<header>
-			<h1>Zac Messinger</h1>
+			<h1>TitleWillGoHere</h1>
 			<aside id="bio-description">
 				<img
 					src="https://via.placeholder.com/150"
 					alt="Zac Messinger"
 				/>
 				<p>
-					A personal website by Zac Messinger
+					A personal website by Zac Messinger.
 					<br />I write about business & code.
 				</p>
 			</aside>
