@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import './index.css';
 
 const Header: React.FC = () => {
@@ -6,10 +7,7 @@ const Header: React.FC = () => {
 		<header>
 			<h1>TitleWillGoHere</h1>
 			<aside id="bio-description">
-				<img
-					src="https://via.placeholder.com/150"
-					alt="Zac Messinger"
-				/>
+				<StaticImage src="../../images/zdm.png" alt="Zac Messinger" />
 				<p>
 					A personal website by Zac Messinger.
 					<br />I write about business & code.
