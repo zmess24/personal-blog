@@ -1,0 +1,17 @@
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+header #bio-description {
+	display: flex;
+	flex-direction: row;
+}
+
+#bio-description img {
+	border-radius: 50%;
+	height: 3.5rem;
+	width: 3.5rem;
+	margin-right: 0.875rem;
+	margin-bottom: 0px;
+}
