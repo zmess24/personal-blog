@@ -10,4 +10,11 @@
 
 #nav ul li {
 	margin-right: 1.5rem;
+	cursor: pointer;
+	transition: 0.3s ease-in-out 0s;
+}
+
+li.active {
+	color: lightskyblue;
+	transition: 0.3s ease-in-out 0s;
 }
