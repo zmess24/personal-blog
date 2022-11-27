@@ -12,6 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => {
 	return (
 		<div id="layout-wrapper">
 			<Header />
+			<Menu />
 			{children}
 		</div>
 	);

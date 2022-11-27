@@ -1,0 +1,13 @@
+#nav ul {
+	flex-direction: row;
+	display: flex;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	list-style: none;
+	padding-left: 0;
+}
+
+#nav ul li {
+	margin-right: 1.5rem;
+}

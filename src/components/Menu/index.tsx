@@ -3,7 +3,7 @@ import './index.css';
 
 const Menu: React.FC = () => {
 	return (
-		<nav>
+		<nav id="nav">
 			<ul>
 				<li>Blog</li>
 				<li>Projects</li>
