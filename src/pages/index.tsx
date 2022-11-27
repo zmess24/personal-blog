@@ -17,7 +17,7 @@ const IndexPage: React.FC<PageProps> = () => {
 	};
 
 	return (
-		<div id="layout-wrapper">
+		<div id="wrapper">
 			<Header />
 			<Menu activeTab={value} clickHandler={clickHandler} />
 			{activeTab === 'blog' ? <Blog /> : <Projects />}
