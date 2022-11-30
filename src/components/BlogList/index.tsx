@@ -21,7 +21,7 @@ const BlogList: React.FC<BlostListProps> = ({ posts }) => {
 				{posts.map((post, index) => {
 					return (
 						<article key={index} className="article">
-							<h3 className="title">{post.title}</h3>
+							<h3 className="title-font">{post.title}</h3>
 							<small className="date">{post.date}</small>
 							<p className="">{post.description}</p>
 						</article>

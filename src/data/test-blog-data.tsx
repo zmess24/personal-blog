@@ -1,7 +1,8 @@
 const blogPosts = [
 	{
 		title: 'Post 1',
-		description: 'This is a description of a blog post',
+		description:
+			'Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)',
 		date: 'November 28th, 2022',
 		tags: ['business', 'coding']
 	},
