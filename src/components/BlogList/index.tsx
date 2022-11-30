@@ -1,24 +1,17 @@
 import * as React from 'react';
-import { useState, useEffect } from 'react';
-// Dummy Data
-import blogPosts from '../../data/test-blog-data';
 
-type Post = {
+type BlostListProps = {
+	posts: BlogListItem[] | null;
+};
+
+type BlogListItem = {
 	title: string;
 	description: string;
 	date: string;
 	tags: string[];
 };
 
-const BlogList: React.FC = () => {
-	const [posts, setPosts] = useState<Post[]>();
-
-	useEffect(() => {
-		setTimeout(() => {
-			setPosts(blogPosts);
-		}, 50);
-	}, []);
-
+const BlogList: React.FC<BlostListProps> = ({ posts }) => {
 	if (!posts) {
 		return <div></div>;
 	} else {
