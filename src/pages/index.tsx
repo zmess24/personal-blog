@@ -4,8 +4,10 @@ import type { PageProps } from 'gatsby';
 import Menu from '../components/Menu';
 import Header from '../components/Header';
 import Projects from '../components/Projects';
-import Blog from '../components/Blog';
+import BlogList from '../components/BlogList';
 import './global.css';
+// Dummy Data
+import blogPosts from '../data/test-blog-data';
 
 const IndexPage: React.FC<PageProps> = () => {
 	const [activeTab, setActiveTab] = useState<string>('blog');
@@ -20,7 +22,7 @@ const IndexPage: React.FC<PageProps> = () => {
 		<div id="wrapper">
 			<Header />
 			<Menu activeTab={value} clickHandler={clickHandler} />
-			{activeTab === 'blog' ? <Blog /> : <Projects />}
+			{activeTab === 'blog' ? <BlogList /> : <Projects />}
 		</div>
 	);
 };
