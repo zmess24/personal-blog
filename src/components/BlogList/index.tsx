@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './index.css';
 
 type BlostListProps = {
 	posts: BlogListItem[] | null;
@@ -19,10 +20,10 @@ const BlogList: React.FC<BlostListProps> = ({ posts }) => {
 			<main>
 				{posts.map((post, index) => {
 					return (
-						<article key={index}>
-							<h3>{post.title}</h3>
-							<small>{post.date}</small>
-							<p>{post.description}</p>
+						<article key={index} className="article">
+							<h3 className="title">{post.title}</h3>
+							<small className="date">{post.date}</small>
+							<p className="">{post.description}</p>
 						</article>
 					);
 				})}
