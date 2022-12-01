@@ -39,9 +39,8 @@ const config: GatsbyConfig = {
 				],
 				web: [
 					{
-						name: `Londrina Solid`,
-						file: `https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400&display=swap`
-						// file: `https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap"`
+						name: 'Bakbak One',
+						file: 'https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap'
 					}
 				]
 			}
