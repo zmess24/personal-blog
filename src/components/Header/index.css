@@ -27,3 +27,9 @@ header #bio-description {
 	margin-top: 0;
 	height: 56px;
 }
+
+#head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

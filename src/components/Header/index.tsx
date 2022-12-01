@@ -5,7 +5,13 @@ import './index.css';
 const Header: React.FC = () => {
 	return (
 		<header>
-			<h1 className="title-font">Overreacted</h1>
+			<section id="head">
+				<h1 className="title-font">Overreacted</h1>
+				<div>
+					<span>Github</span>
+					<span>LinkedIn</span>
+				</div>
+			</section>
 			<aside id="bio-description">
 				<StaticImage src="../../images/zdm.png" alt="Zac Messinger" />
 				<p>
